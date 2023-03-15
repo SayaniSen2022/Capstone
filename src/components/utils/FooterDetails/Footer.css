@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  font-size: small;
+}
+.contact {
+  margin: 1em 1em 1em 1em;
+}
+.category-heads {
+  font-size: medium;
+}
+.social-media {
+  margin: 0 0 1em 1em;
+}
+.social-media ul {
+  list-style: none;
+}

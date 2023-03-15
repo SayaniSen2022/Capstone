@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover {
+  color: #677205;
+}
+.footer-icons {
+  margin: 0.75em;
+}

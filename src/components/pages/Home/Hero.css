@@ -1,0 +1,34 @@
+.hero {
+  background-color: #0e1814;
+  display: flex;
+}
+.hero-image {
+  margin: 1em;
+  border-radius: 20px;
+  width: 35%;
+  height: 10%;
+}
+
+.bio {
+  margin: 1em;
+  color: white;
+  font-size: xx-large;
+}
+.announcement {
+  color: rgb(226, 110, 33);
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+

@@ -1,0 +1,13 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #81e6d9;
+  color: #2c2c2c;
+  align-items: center;
+  margin: 0;
+  padding: 0.5em;
+}
+.logo {
+  width: 35%;
+}

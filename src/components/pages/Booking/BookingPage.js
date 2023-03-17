@@ -7,12 +7,6 @@ const BookingPage = () => {
     <>
       <div className="booking-page">
         <BookingForm />
-        <img
-          src="./reserved.jpg"
-          alt="reserved"
-          style={{ width: "50%" }}
-          className="reserved"
-        />
       </div>
     </>
   );

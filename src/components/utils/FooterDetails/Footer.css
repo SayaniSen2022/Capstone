@@ -1,18 +1,31 @@
 .footer {
   display: flex;
-  background-color: black;
-  color: aliceblue;
+  background-color: #1d4044;
+  color: #b2f5ea;
   font-size: small;
 }
 .contact {
-  margin: 1em 1em 1em 1em;
+  margin: 1em;
 }
-.category-heads {
+.contacts {
   font-size: medium;
+  font-weight: bold;
 }
-.social-media {
-  margin: 0 0 1em 1em;
+.social-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.social-media ul {
-  list-style: none;
+.socials {
+  display: flex;
+  float: right;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.social-icons {
+  display: flex;
+}
+.copyright {
+  margin: 9em 0 0 44em;
 }

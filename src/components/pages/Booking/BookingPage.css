@@ -1,7 +1,3 @@
 .booking-page {
-  display: flex;
   margin: 1em;
-}
-.reserved {
-  border-radius: 30px;
 }

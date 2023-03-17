@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="contact">
-        <div className="category-heads">CONTACT US</div>
+        <div className="contacts">CONTACT US</div>
         <div>
           <b>Address:</b> 14A, Michigan Avenue, Downtown Chicago, IL-60622-3456
         </div>
@@ -18,34 +18,34 @@ const Footer = () => {
           <b>Email:</b> LittleLemonChicago@gmail.com
         </div>
       </div>
-
-      <nav className="social-media">
-        <ul>
-          <div className="category-heads">SOCIAL LINKS</div>
-
-          <li>
+      <div className="social-group">
+        <div className="socials">SOCIAL LINKS</div>
+        <div className="social-icons">
+          <div>
             <a href="#instagram">
               <IconContext.Provider value={{ className: "footer-icons" }}>
                 <CiInstagram />
               </IconContext.Provider>
             </a>
-          </li>
-          <li>
+          </div>
+          <div>
             <a href="#twitter">
               <IconContext.Provider value={{ className: "footer-icons" }}>
                 <CiTwitter />
               </IconContext.Provider>
             </a>
-          </li>
-          <li>
+          </div>
+          <div>
             <a href="#facebook">
               <IconContext.Provider value={{ className: "footer-icons" }}>
                 <CiFacebook />
               </IconContext.Provider>
             </a>
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </div>
+      </div>
+
+      <div className="copyright">&copy; Little Lemon, 2023</div>
     </footer>
   );
 };

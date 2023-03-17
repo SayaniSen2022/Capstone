@@ -38,11 +38,12 @@
 }
 a {
   text-decoration: none;
-  color: aliceblue;
 }
 a:hover {
   color: #677205;
 }
 .footer-icons {
   margin: 0.75em;
+  font-size: 25px;
+  color: #b2f5ea;
 }

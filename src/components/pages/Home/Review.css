@@ -1,0 +1,11 @@
+.review-stars {
+  display: flex;
+  margin-top: 1.2em;
+  color: white;
+}
+.star-design {
+  color: yellow;
+}
+.review-body {
+  background-image: linear-gradient(blue, grey);
+}

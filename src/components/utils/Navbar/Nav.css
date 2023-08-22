@@ -2,13 +2,14 @@
   list-style: none;
   display: flex;
   justify-content: space-around;
-  background-color: #81e6d9;
-  color: #2c2c2c;
-  font-weight: bold;
+  background-color: #04030f;
+  color: #f4c95d;
+  font-weight: 500;
+  font-size: 1.5rem;
   align-items: center;
   padding: 0.25em;
-  border-radius: 5px;
+  border: none;
 }
 .logo {
-  width: 45%;
+  width: 40%;
 }

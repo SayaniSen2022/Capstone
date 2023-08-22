@@ -1,12 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Great+Vibes&display=swap");
 body {
   margin: 0;
-  font-family: "Fira Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

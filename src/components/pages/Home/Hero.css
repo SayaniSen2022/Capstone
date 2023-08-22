@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+
 .hero {
   background-color: #0e1814;
   display: flex;
@@ -7,16 +9,36 @@
   border-radius: 20px;
   width: 35%;
   height: 10%;
+  object-fit: cover;
 }
 
 .bio {
   margin: 1em;
+  color: #d8d174;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.offer-head {
+  font-style: normal;
+  font-weight: 900;
   color: white;
-  font-size: xx-large;
+  letter-spacing: 1.5px;
 }
 .announcement {
-  color: rgb(226, 110, 33);
-  animation: animate 2s linear infinite;
+  color: #f6a21e;
+  font-weight: 900;
+  letter-spacing: 1px;
+  animation: animate 3s linear infinite;
+}
+.dineout-image {
+  width: 50%;
+  border-radius: 10px;
+}
+.dineout-block {
+  display: flex;
+  justify-content: center;
 }
 @keyframes animate {
   0% {
@@ -31,4 +53,3 @@
     opacity: 0;
   }
 }
-

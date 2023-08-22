@@ -1,15 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ysabeau+SC:wght@600&display=swap");
+
 .footer {
   display: flex;
-  background-color: #1d4044;
-  color: #b2f5ea;
-  font-size: small;
+  justify-content: flex-start;
+  background-color: #04030f;
+  color: #b9bab8;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+  overflow: hidden;
 }
 .contact {
   margin: 1em;
 }
-.contacts {
-  font-size: medium;
-  font-weight: bold;
+.contact-header {
+  font-size: 1rem;
+  font-weight: 700;
 }
 .social-group {
   display: flex;
@@ -17,15 +24,39 @@
   align-items: center;
 }
 .socials {
-  display: flex;
-  float: right;
-  font-size: medium;
-  font-weight: bold;
+  /* display: flex; */
+  /* float: right; */
+  font-size: 1rem;
+  font-weight: 700;
   margin-top: 1em;
 }
 .social-icons {
   display: flex;
+  justify-content: space-between;
 }
-.copyright {
-  margin: 9em 0 0 44em;
+.copyright-block {
+  position: relative;
+  left: 38em;
+  top: -15px;
+}
+
+.footer-logo {
+  position: relative;
+  bottom: 36px;
+  width: 27%;
+  margin-top: 8em;
+}
+.footer-icons {
+  margin: 0.75em;
+  font-size: 25px;
+  color: #b9bab8;
+}
+.twitter:hover {
+  color: #1d9bf0;
+}
+.instagram:hover {
+  color: #d62976;
+}
+.facebook:hover {
+  color: #1877f2;
 }

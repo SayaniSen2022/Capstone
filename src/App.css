@@ -1,11 +1,11 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -41,9 +41,4 @@ a {
 }
 a:hover {
   color: #677205;
-}
-.footer-icons {
-  margin: 0.75em;
-  font-size: 25px;
-  color: #b2f5ea;
 }

@@ -3,6 +3,7 @@
 .hero {
   background-color: #0e1814;
   display: flex;
+  margin-top: 4em;
 }
 .hero-image {
   margin: 1em;

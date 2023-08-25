@@ -9,11 +9,12 @@ const Hero = () => {
         <p className="bio">
           We are a family owned Mediterranean restaurant, focussed on
           traditional recipes served with a modern twist.
-          <Card borderRadius="10" bg="#04030f">
+          <Card
+            bgGradient="linear(to-t, pink.900, purple.200 )"
+            borderRadius="20"
+          >
             <CardBody display="flex" flexDirection="column">
-              <Text fontSize="5xl" className="offer-head">
-                WEEKEND OFFER
-              </Text>
+              <Text className="offer-head">WEEKEND OFFER</Text>
               <div className="dineout-block">
                 <Image
                   className="dineout-image"
@@ -21,7 +22,7 @@ const Hero = () => {
                   src="./dineout.jpg"
                   alt="Dineout image"
                 />
-                <Text fontSize="5xl" pl="4" className="announcement">
+                <Text pl="4" className="announcement">
                   FLAT 40% OFF on dining out bills!
                 </Text>
               </div>

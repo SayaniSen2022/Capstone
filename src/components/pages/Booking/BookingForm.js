@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./BookingForm.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { fetchAPI, submitAPI } from "./../../utils/ApiData";
@@ -15,7 +16,6 @@ import {
   FormErrorMessage,
 } from "@chakra-ui/react";
 import { useToast } from "@chakra-ui/react";
-// import { useToast } from "@chakra-ui/react";
 import AvailableTimes from "./AvailableTimes";
 
 const BookingForm = () => {
@@ -77,13 +77,12 @@ const BookingForm = () => {
   return (
     <>
       <Heading
-        as="h1"
         size="3xl"
         py={7}
         display="flex"
         alignItems="center"
         justifyContent="center"
-        color="teal.200"
+        className="booking-heading"
       >
         Book Now
       </Heading>
@@ -162,7 +161,7 @@ const BookingForm = () => {
               size="md"
               type="submit"
               value="submit"
-              colorScheme="teal"
+              color="blue.700"
               variant="solid"
               isDisabled={formik.values.date === ""}
             >

@@ -7,5 +7,5 @@
   color: yellow;
 }
 .review-body {
-  background-image: linear-gradient(blue, grey);
+  background-image: linear-gradient(rgb(68, 4, 68), rgb(209, 172, 216));
 }

@@ -1,3 +1,5 @@
 .booking-page {
-  margin: 1em;
+  margin: 0;
+  padding: 5em;
+  background-image: linear-gradient(white, yellow);
 }

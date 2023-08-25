@@ -16,14 +16,7 @@ import { IconContext } from "react-icons/lib";
 const Review = () => {
   return (
     <>
-      <Stack
-        position="relative"
-        zIndex="-1"
-        direction="row"
-        p="3"
-        spacing={2}
-        bgColor="#0e1814"
-      >
+      <Stack position="relative" zIndex="-1" direction="row" p="3" spacing={2}>
         <Card maxW="lg" className="review-body" borderRadius="50">
           <CardHeader>
             <Flex color="#EBF8FF">

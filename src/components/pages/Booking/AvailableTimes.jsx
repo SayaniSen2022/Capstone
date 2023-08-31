@@ -8,6 +8,7 @@ const AvailableTimes = (props) => {
         focusBorderColor="blue.200"
         id="res-time"
         mb={2}
+        w="80"
       >
         {props.timeData.map((e) => (
           <option key={e}>{e}</option>
